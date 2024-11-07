@@ -1,0 +1,92 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+.header {
+  padding: 50px;
+}
+
+.title {
+  color: white;
+  font-family: Gabarito;
+  font-size: 50px;
+}
+
+.description {
+  color: white;
+  font-family: Gabarito;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  margin-left: 60px;
+}
+
+.description-contact {
+  color: white;
+  font-family: Gabarito;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  margin-left: 60px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills {
+  color: white;
+  font-family: Gabarito;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  margin-left: 60px;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 20px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #333935ba;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-family: Gabarito;
+}
+
+.contact-button:hover {
+  background-color: #505a53;
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-button:focus {
+  outline: 2px solid #505a53;
+  outline-offset: 2px;
+}
